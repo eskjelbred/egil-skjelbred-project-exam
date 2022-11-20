@@ -1,0 +1,15 @@
+.list-title {
+    background-color: rgba($color: rgba(250, 121, 0), $alpha: 0.7);
+    position: relative;
+    margin-top: -30px;
+    color: white;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.list-text p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}

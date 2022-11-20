@@ -1,0 +1,23 @@
+.btn-primary {
+    color: white;
+    font-weight: 600;
+}
+
+main {
+    background-image: url(../assets/images/Bergen_night_view_from_Fløyen_tunliweb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+main > div {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-booking {
+    width: 900px;
+    height: 125px;
+    background-color: white;
+    color: $color-dark;
+}
