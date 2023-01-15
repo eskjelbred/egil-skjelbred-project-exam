@@ -2,8 +2,8 @@
 
 ## Login details
 
-Username: user .\
-Password: Iwi)EAPq@^GyD9Z%3%CNW(\*O .\
+Username: user
+Password: EAPGyD9Z3CNW
 
 ## Available Scripts
 
