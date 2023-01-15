@@ -1,3 +1,11 @@
+h1 {
+    font-size: 3rem;
+}
+
+.list-group-item:hover {
+    cursor:pointer
+}
+
 .btn-primary {
     color: white;
     font-weight: 600;
@@ -20,4 +28,8 @@ main > div {
     height: 125px;
     background-color: white;
     color: $color-dark;
+}
+
+.main-content {
+    min-height: calc(100vh - 110px);
 }

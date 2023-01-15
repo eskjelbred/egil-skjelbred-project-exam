@@ -1,6 +1,10 @@
 // make customizations to bootstrap colors and other variables here
 $color-primary: #fb7b01;
 $color-secondary: #3e627c;
+$color-blue: blue;
+$color-green: green;
+$color-red: red;
+$color-warning: orange;
 $color-dark: #202020;
 
 // function to handle change in variables to bootstrap colors
@@ -8,4 +12,9 @@ $theme-colors: (
     "primary": $color-primary,
     "secondary": $color-secondary,
     "dark": $color-dark,
+    "blue": $color-blue,
+    "red": $color-red,
+    "green": $color-green,
+    "warning": $color-warning,
 );
+ 

@@ -1,19 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import Navigation from "../components/Navigation/Navigation";
 import Hero from "../components/Hero/Hero";
 import Footer from "../components/Footer/Footer";
-import PostListCards from "../components/Posts/Cards/PostListCards";
+import { Container } from "react-bootstrap";
+import PostList from "../components/Posts/PostList";
 
 function Home() {
-    return (
-        <>
-            <Navigation />
-            <Hero />
-            <h2 className="text-center m-5">Special offers</h2>
-            <PostListCards />
-            <Footer />
-        </>
-    );
+	return (
+		<>
+			<Container>
+				<Navigation />
+				<div className="main-content">
+					<Hero />
+					<PostList showPosts={3} />
+				</div>
+			</Container>
+			<Footer />
+		</>
+	);
 }
 
 export default Home;
